@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.CreatePost {
+    background-color: #177e38;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.SignOut {
+    background-color: #5e646d;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.newPost {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.newPost input {
+    width: 50%;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.newPost textarea {
+    width: 50%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.newPost #bodyContent {
+    height: 60%;
+}
+
+.newPost .saveNewPost {
+    background-color: #006bdc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header label {
+    background-color: #006bdc;
+    padding: 10px;
+    border: 1px solid #0b53a7;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.header input {
+    background-color: #3a3a3a;
+    margin: 5px;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+}
+
+.signup {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+}
+
+.content {
+    width: 55%;
+}
+
+.content h1 {
+    font-size: 80px;
+    font-family: sans-serif;
+    margin: 10px
+}
+
+.content p {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.signupForm form input {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.signupSubmitButton {
+    background-color: #239a3f;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
